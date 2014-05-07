@@ -1,0 +1,11 @@
+ssh-keygen -t rsa -C "kamlesh.likhare@gmail.com"	
+
+git init
+git add .
+
+git commit -m "initial commit"
+
+
+ git remote add origin https://github.com/kamleshlikhare/dm_profile.git
+ git remote -v
+git pull origin master
